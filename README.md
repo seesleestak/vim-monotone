@@ -1,3 +1,7 @@
+**Note:** This fork is intended only to add TabLine support.
+
+---
+
 # m o n o t o n e
 
 Another monochrome vim colorscheme. Inspired by various
