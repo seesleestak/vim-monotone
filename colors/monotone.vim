@@ -151,6 +151,10 @@ function s:MonotoneColors(color, secondary_hue_offset, emphasize_comments, empha
 	call s:Hi('MatchParen', s:color_dark_3, s:color_hl_2, 16, 214, 'NONE')
 	hi link ParenMatch MatchParen
 
+  " Tab line
+	call s:Hi('TabLine', s:color_bright_1, s:color_dark_3, 246, 235, 'NONE')
+	call s:Hi('TabLineFill', s:color_bright_1, s:color_dark_3, 246, 235, 'NONE')
+
 	" Popup menu
 	call s:Hi('Pmenu', s:color_bright_1, s:color_dark_2, 246, 235, 'NONE')
 	call s:Hi('PmenuSbar', 'NONE', s:color_dark_2, 'NONE', 235, 'NONE')
